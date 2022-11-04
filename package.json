@@ -1,0 +1,26 @@
+{
+  "name": "e_commerce_be",
+  "version": "1.0.0",
+  "description": "backend of ecommerce project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cburnside1385/E_commerce_BE.git"
+  },
+  "author": "cburnside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cburnside1385/E_commerce_BE/issues"
+  },
+  "homepage": "https://github.com/cburnside1385/E_commerce_BE#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
+}
